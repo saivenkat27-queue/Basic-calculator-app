@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <h1>==Basic Project==</h1>
+  <div id="calci">
+    <input id="output" readonly/>
+    <button onclick="clearDisplay()" id="oper">AC</button><br />
+    <div id="keys">
+      
+    <button onclick="expadd('9')" >9</button>
+    <button onclick="expadd('8')">8</button>
+    <button onclick="expadd('7')">7</button>
+    <button onclick="expadd('+')" id="oper">+</button><br />
+    <button onclick="expadd('6')">6</button>
+    <button onclick="expadd('5')">5</button>
+    <button onclick="expadd('4')">4</button>
+    <button onclick="expadd('-')" id="oper">-</button><br />
+    <button onclick="expadd('3')">3</button>
+    <button onclick="expadd('2')">2</button>
+    <button onclick="expadd('1')" >1</button>
+    <button onclick="expadd('*')" id="oper">*</button><br />
+    <button onclick="expadd('.')">.</button>
+    <button onclick="expadd('0')">0</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="expadd('/')" id="oper">/</button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
